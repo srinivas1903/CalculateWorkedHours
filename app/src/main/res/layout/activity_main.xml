@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/time"
+        android:id="@+id/start"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -23,5 +23,18 @@
 
         android:textStyle="bold" />
 
+    <EditText
+        android:id="@+id/end"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Select Time..."
+        android:textColor="#090"
+        android:textColorHint="#090"
+        android:background="#d4d4d4"
+        android:padding="15dp"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
 </RelativeLayout>
 
